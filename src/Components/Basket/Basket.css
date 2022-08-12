@@ -1,0 +1,77 @@
+.basket_wrapper {
+    margin-top: 50px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cardBasket {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    border: 2px dashed red;
+    margin-bottom: 30px;
+    padding: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.basket_header {
+    font-size: 18px;
+}
+
+.basket_img {
+    border-radius: 4px;
+}
+
+.basket_count {
+    border: none;
+    background-color: transparent;
+}
+
+.delete_product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: gray;
+    color: #fff;
+    cursor: pointer;
+}   
+
+.form-basket {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-basket input {
+    width: 500px;
+    height: 50px;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.form-basket button {
+    width: 150px;
+    height: 30px;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 17px;
+    box-sizing: content-box;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-basket button:hover {
+    background-color: #fff;
+    color: red;
+    border: 2px solid red;
+}

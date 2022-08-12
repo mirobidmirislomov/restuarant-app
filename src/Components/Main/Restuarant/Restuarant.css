@@ -1,0 +1,19 @@
+.restuarants-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.restuarant_header {
+    color: red;
+    position: absolute;
+    top: -110px;
+    left: 0;
+    right: 0;
+}
+
+.card {
+    margin-bottom: 100px;
+}

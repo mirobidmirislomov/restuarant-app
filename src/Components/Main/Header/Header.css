@@ -1,0 +1,28 @@
+.header-section {
+    background-color: red;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    display: inline-block;
+    font-size: 25px;
+    color: #000;
+    text-decoration: none;
+}
